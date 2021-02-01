@@ -41,6 +41,8 @@ public class Aufgabe1 {
         }
         System.out.println();
 
+
+
         // Aufgabe B
         System.out.println("AUFGABE B");
         for(int i = 0; i < 5; i = i + 1){
