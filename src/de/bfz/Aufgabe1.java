@@ -67,18 +67,23 @@ public class Aufgabe1 {
         // Alternativer weg mit noch mehr Schleifen
         System.out.println("Alternativer weg mit noch mehr Schleifen");
         for(int i = 0; i < 1; i = i + 1) {
-            System.out.println("  *  ");
+            System.out.print("  *  ");
+            System.out.println();
             for (int j = 0; j < 1; j = j + 1) {
-                System.out.println(" *** ");
+                System.out.print(" *** ");
+                System.out.println();
                 for (int k = 0; k < 1; k = k + 1) {
-                    System.out.println("*****");
+                    System.out.print("*****");
+                    System.out.println();
                 }
             }
         }
         for(int i = 0; i < 1; i = i + 1){
-            System.out.println(" *** ");
+            System.out.print(" *** ");
+            System.out.println();
             for(int j = 0; j < 1; j = j + 1){
-                System.out.println("  *  ");
+                System.out.print("  *  ");
+                System.out.println();
             }
         }
     }
